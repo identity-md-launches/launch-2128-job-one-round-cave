@@ -1,0 +1,29 @@
+{
+  "trackedChangesWithinScope": [
+    "artifacts/line-2/wall.png",
+    "line-2/README.md",
+    "line-2/USED.md"
+  ],
+  "goalUnchanged": true,
+  "olderRecordsUnchanged": 31,
+  "recordShapeHashAndNumber": true,
+  "changedPixels": 1764,
+  "changedPixelsOutsideNewMark": 0,
+  "newNonArtifactFilesUnder100KB": true,
+  "namedPNGUntracked": true,
+  "imageFormatsDimensions": {
+    "wall": {
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254
+    },
+    "preview": {
+      "format": "JPEG",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "formatDimensionsNote": "Also inspected independently with installed image_info tool.",
+  "unmetVisualRequirements": [],
+  "scope": "Local structural checks, not independent certification."
+}

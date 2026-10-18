@@ -1,0 +1,67 @@
+{
+  "round": 32,
+  "ancestorSha256": "cb326af3a904ba9e84ee767294016120c304a638880a5208a1b8dbc4a49b1726",
+  "generatedMotifSha256": "9d08fa83ea0b6da0a4a6627c5ccfbe2e5ce83ea4475f861eacc17ce3c858304a",
+  "wallSha256": "a8006f2f94001c144a76953d42ea5cb4e60fb2fcf096a0095c897e2d27ca4c69",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "channels": "RGB",
+  "newMarkRectangle": [
+    495,
+    180,
+    130,
+    70
+  ],
+  "sourceCrop": [
+    140,
+    225,
+    735,
+    340
+  ],
+  "changedPixels": 1764,
+  "changedPixelsOutsideRectangle": 0,
+  "method": "Installed image tool generated flat ochre shelter and chalk dot; only isolated pigment was downsampled and blended onto unused ancestral rock.",
+  "visualReview": "Inspected final PNG and JPEG. Inherited heavy-lidded, wide-mouthed Pepe and both five-digit hands are intact; no new hands or stencils. Small flat ochre shelter and chalk seed on unused rock. No letters, numbers, captions, logos, watermarks, borders, frames, photos, real people or forbidden symbols observed. Ancestor pixels outside the patch are exact. Local review only.",
+  "unmetVisualRequirements": [],
+  "placementNote": "The explicitly required beside-record JPEG follows dist/line-2/32.jpg, as in ancestor rounds, despite the conflicting blanket picture-location sentence.",
+  "images": [
+    {
+      "path": "artifacts/line-2/wall-v12.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3943746,
+      "sha256": "a8006f2f94001c144a76953d42ea5cb4e60fb2fcf096a0095c897e2d27ca4c69"
+    },
+    {
+      "path": "artifacts/line-2/wall.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3943746,
+      "sha256": "a8006f2f94001c144a76953d42ea5cb4e60fb2fcf096a0095c897e2d27ca4c69"
+    },
+    {
+      "path": "dist/line-2/32.jpg",
+      "format": "JPEG",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 77669,
+      "sha256": "fc64fbaf1b49134c4a4c1750e54cb0ba68e63766742be118c8d0126f93ebc006"
+    }
+  ],
+  "limitations": [
+    "New motif is intentionally small at thumbnail size.",
+    "Generated arch is broader than requested; retained as a shelter pictogram.",
+    "No independent external visual approval."
+  ]
+}

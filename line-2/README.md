@@ -149,3 +149,18 @@ state. The pool fixture grew slightly because its nodes are unique; packing is
 not always smaller. Fifteen new tests passed, plus the 30 State Witness tests.
 [Round 29](ROUND-29.md) and [review](REVIEW-29.json) record the bound-twigs mark,
 preserved ancestor pixels, formats and limitations.
+
+## Round 32 addition
+
+[Anchored Gate](tools/anchored-gate/README.md) combines a caller-pinned state
+policy, a header-anchored proof and an explicit age limit in one acceptance
+decision. Its offline historical ZTO/IMD pool demonstration:
+
+```sh
+python3 -B line-2/tools/anchored-gate/anchored_gate.py demo
+```
+
+All 20 integration tests and 71 directly reused dependency tests passed.
+The demo uses a simulated reference time; its RPC-observed block hash still
+requires independent authentication for real decisions. See [Round 32](ROUND-32.md)
+and [review](REVIEW-32.json) for the small ochre shelter mark and preservation checks.

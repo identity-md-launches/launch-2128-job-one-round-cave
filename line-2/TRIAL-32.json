@@ -1,0 +1,323 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-2/tools/anchored-gate/anchored_gate.py",
+      "demo"
+    ],
+    "exitCode": 0,
+    "result": {
+      "accepted": true,
+      "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "age": {
+        "ageSeconds": 60,
+        "atUnixSeconds": 1792241555,
+        "headerUnixSeconds": 1792241495,
+        "maxAgeSeconds": 60
+      },
+      "anchor": {
+        "blockHash": "0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc",
+        "blockNumber": "0x18ff826",
+        "headerSchema": "prague",
+        "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+        "timestamp": "0x6ad36f57"
+      },
+      "checks": [
+        {
+          "actual": true,
+          "expected": true,
+          "field": "account.exists",
+          "passed": true
+        },
+        {
+          "actual": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+          "expected": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+          "field": "account.codeHash",
+          "passed": true
+        },
+        {
+          "actual": true,
+          "expected": true,
+          "field": "storage.0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b.exists",
+          "passed": true
+        },
+        {
+          "actual": "5142201741628931703247188819393128666781505348170750299503867444289",
+          "expected": {
+            "equals": "5142201741628931703247188819393128666781505348170750299503867444289"
+          },
+          "field": "storage.0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b.value",
+          "passed": true
+        }
+      ],
+      "demo": "Real historical ZTO/IMD pool proof; simulated reference time at header +60 seconds (+61 for stale/both). Demo hash and policy are illustrative, not independently authenticated. Rejection modes intentionally alter the demo time or policy.",
+      "format": "anchored-gate/1",
+      "policySha256": "9f9f773cc0c683693b10d5b9a084910eb036ea6de67a73a1f4b50d0e280d2d10",
+      "reasons": [],
+      "state": {
+        "accountExists": true,
+        "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+        "codeHash": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+        "nativeBalanceWei": "57499945682580518811968",
+        "nonce": "0x1",
+        "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+        "storage": [
+          {
+            "exists": true,
+            "slot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+            "value": "0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41"
+          }
+        ],
+        "storageRoot": "0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0",
+        "verified": true
+      },
+      "trust": "Authenticate the block hash, chain, policy fingerprint and reference time independently. The policy selects the exact account and slots. This proves only sampled state and header timestamp age, not consensus, finality, storage layout, present freshness, execution, or future state.",
+      "verified": true
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-2/tools/anchored-gate/anchored_gate.py",
+      "demo",
+      "--reject",
+      "stale"
+    ],
+    "exitCode": 3,
+    "result": {
+      "accepted": false,
+      "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "age": {
+        "ageSeconds": 61,
+        "atUnixSeconds": 1792241556,
+        "headerUnixSeconds": 1792241495,
+        "maxAgeSeconds": 60
+      },
+      "anchor": {
+        "blockHash": "0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc",
+        "blockNumber": "0x18ff826",
+        "headerSchema": "prague",
+        "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+        "timestamp": "0x6ad36f57"
+      },
+      "checks": [
+        {
+          "actual": true,
+          "expected": true,
+          "field": "account.exists",
+          "passed": true
+        },
+        {
+          "actual": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+          "expected": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+          "field": "account.codeHash",
+          "passed": true
+        },
+        {
+          "actual": true,
+          "expected": true,
+          "field": "storage.0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b.exists",
+          "passed": true
+        },
+        {
+          "actual": "5142201741628931703247188819393128666781505348170750299503867444289",
+          "expected": {
+            "equals": "5142201741628931703247188819393128666781505348170750299503867444289"
+          },
+          "field": "storage.0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b.value",
+          "passed": true
+        }
+      ],
+      "demo": "Real historical ZTO/IMD pool proof; simulated reference time at header +60 seconds (+61 for stale/both). Demo hash and policy are illustrative, not independently authenticated. Rejection modes intentionally alter the demo time or policy.",
+      "format": "anchored-gate/1",
+      "policySha256": "9f9f773cc0c683693b10d5b9a084910eb036ea6de67a73a1f4b50d0e280d2d10",
+      "reasons": [
+        "stale-header"
+      ],
+      "state": {
+        "accountExists": true,
+        "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+        "codeHash": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+        "nativeBalanceWei": "57499945682580518811968",
+        "nonce": "0x1",
+        "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+        "storage": [
+          {
+            "exists": true,
+            "slot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+            "value": "0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41"
+          }
+        ],
+        "storageRoot": "0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0",
+        "verified": true
+      },
+      "trust": "Authenticate the block hash, chain, policy fingerprint and reference time independently. The policy selects the exact account and slots. This proves only sampled state and header timestamp age, not consensus, finality, storage layout, present freshness, execution, or future state.",
+      "verified": true
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-2/tools/anchored-gate/anchored_gate.py",
+      "demo",
+      "--reject",
+      "condition"
+    ],
+    "exitCode": 3,
+    "result": {
+      "accepted": false,
+      "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "age": {
+        "ageSeconds": 60,
+        "atUnixSeconds": 1792241555,
+        "headerUnixSeconds": 1792241495,
+        "maxAgeSeconds": 60
+      },
+      "anchor": {
+        "blockHash": "0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc",
+        "blockNumber": "0x18ff826",
+        "headerSchema": "prague",
+        "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+        "timestamp": "0x6ad36f57"
+      },
+      "checks": [
+        {
+          "actual": true,
+          "expected": true,
+          "field": "account.exists",
+          "passed": true
+        },
+        {
+          "actual": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+          "expected": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+          "field": "account.codeHash",
+          "passed": true
+        },
+        {
+          "actual": true,
+          "expected": true,
+          "field": "storage.0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b.exists",
+          "passed": true
+        },
+        {
+          "actual": "5142201741628931703247188819393128666781505348170750299503867444289",
+          "expected": {
+            "equals": "0"
+          },
+          "field": "storage.0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b.value",
+          "passed": false
+        }
+      ],
+      "demo": "Real historical ZTO/IMD pool proof; simulated reference time at header +60 seconds (+61 for stale/both). Demo hash and policy are illustrative, not independently authenticated. Rejection modes intentionally alter the demo time or policy.",
+      "format": "anchored-gate/1",
+      "policySha256": "bcb10f98da03f5a1da532b045f98c9d5caf9c2d48fba148e7ce206a6d56c2112",
+      "reasons": [
+        "state-conditions-failed"
+      ],
+      "state": {
+        "accountExists": true,
+        "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+        "codeHash": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+        "nativeBalanceWei": "57499945682580518811968",
+        "nonce": "0x1",
+        "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+        "storage": [
+          {
+            "exists": true,
+            "slot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+            "value": "0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41"
+          }
+        ],
+        "storageRoot": "0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0",
+        "verified": true
+      },
+      "trust": "Authenticate the block hash, chain, policy fingerprint and reference time independently. The policy selects the exact account and slots. This proves only sampled state and header timestamp age, not consensus, finality, storage layout, present freshness, execution, or future state.",
+      "verified": true
+    }
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-2/tools/anchored-gate/anchored_gate.py",
+      "demo",
+      "--reject",
+      "both"
+    ],
+    "exitCode": 3,
+    "result": {
+      "accepted": false,
+      "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "age": {
+        "ageSeconds": 61,
+        "atUnixSeconds": 1792241556,
+        "headerUnixSeconds": 1792241495,
+        "maxAgeSeconds": 60
+      },
+      "anchor": {
+        "blockHash": "0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc",
+        "blockNumber": "0x18ff826",
+        "headerSchema": "prague",
+        "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+        "timestamp": "0x6ad36f57"
+      },
+      "checks": [
+        {
+          "actual": true,
+          "expected": true,
+          "field": "account.exists",
+          "passed": true
+        },
+        {
+          "actual": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+          "expected": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+          "field": "account.codeHash",
+          "passed": true
+        },
+        {
+          "actual": true,
+          "expected": true,
+          "field": "storage.0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b.exists",
+          "passed": true
+        },
+        {
+          "actual": "5142201741628931703247188819393128666781505348170750299503867444289",
+          "expected": {
+            "equals": "0"
+          },
+          "field": "storage.0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b.value",
+          "passed": false
+        }
+      ],
+      "demo": "Real historical ZTO/IMD pool proof; simulated reference time at header +60 seconds (+61 for stale/both). Demo hash and policy are illustrative, not independently authenticated. Rejection modes intentionally alter the demo time or policy.",
+      "format": "anchored-gate/1",
+      "policySha256": "bcb10f98da03f5a1da532b045f98c9d5caf9c2d48fba148e7ce206a6d56c2112",
+      "reasons": [
+        "stale-header",
+        "state-conditions-failed"
+      ],
+      "state": {
+        "accountExists": true,
+        "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+        "codeHash": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+        "nativeBalanceWei": "57499945682580518811968",
+        "nonce": "0x1",
+        "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+        "storage": [
+          {
+            "exists": true,
+            "slot": "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b",
+            "value": "0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41"
+          }
+        ],
+        "storageRoot": "0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0",
+        "verified": true
+      },
+      "trust": "Authenticate the block hash, chain, policy fingerprint and reference time independently. The policy selects the exact account and slots. This proves only sampled state and header timestamp age, not consensus, finality, storage layout, present freshness, execution, or future state.",
+      "verified": true
+    }
+  }
+]

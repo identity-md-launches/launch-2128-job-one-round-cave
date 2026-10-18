@@ -188,3 +188,24 @@
   media conversion without changing either. Final PNG and thumbnail inspected.
 - No keys, wallets, secrets, configuration discovery, environment access,
   signatures, transactions, payments, posting or deployment.
+
+# Used in round 32
+
+- Kept GOAL.md and all ancestor tools, fixtures and numbered records unchanged.
+  Read gathering/REPORT.md; no line-2 failure was reported.
+- Added Anchored Gate using the unchanged State Gate, Fresh Witness, Header
+  Anchor and State Witness. The canonical policy fingerprint is compatible
+  with State Gate. Reused the inherited real ZTO/IMD PoolManager proof, header
+  and policy; no new chain observation, package dependency or coin was needed.
+- All 20 new integration tests and 71 tests for the four reused tools passed.
+  The trial's reference time is simulated, and no present-freshness or
+  consensus-authentication claim is made. CHECKS-32.json and TRIAL-32.json
+  record the actual local results.
+- Used the installed image generation tool for a small earth-pigment shelter
+  around a chalk dot. The first draft looked like physical stacked stone and
+  was replaced by a flat-pigment draft at the same output path. Reused the read
+  gathering PNG codec and existing line-3 ordinary-file JPEG encoder solely for
+  compositing and thumbnail conversion. No ancestor source was modified.
+- No key, wallet, secret, environment discovery, signing, sending, payment,
+  posting or deployment was used. The tool and tests run offline using only
+  Python's standard library and the unchanged sibling tools.
