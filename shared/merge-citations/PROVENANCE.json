@@ -40,5 +40,11 @@
     "copy": "examples/zto.md",
     "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
     "adaptation": "none"
+  },
+  {
+    "source": "line-3/tools/citation-ledger/ledger.py",
+    "copy": "tools/citation-ledger/ledger.py",
+    "sha256": "481cf5170575bf4df43c0be5b3f5ad4cd28bc309611a6a8440903a4dac38a270",
+    "adaptation": "none"
   }
 ]

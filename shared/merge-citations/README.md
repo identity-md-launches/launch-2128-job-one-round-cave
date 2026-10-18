@@ -1,5 +1,38 @@
 # Merge Citations
 
+Gathering 32 adds batch review using line 3's Citation Ledger:
+
+```sh
+python3 -B shared/merge-citations/merge_ledger.py demo
+python3 -B shared/merge-citations/merge_ledger.py review BASE OURS THEIRS saved-ledger.json
+```
+
+The demo carries two claims from the stored historical ZTO document: token
+metadata and its observation warning. Both relocate through the same proposed
+merge with their own IDs, exact hashes, diffs and surrounding context. Nothing
+is applied, and `source_verified` stays false. This is historical local evidence,
+not a new chain read or current price.
+
+Use the copied `tools/citation-ledger/ledger.py pack` command to combine saved
+anchors into a `citation-ledger/v1` envelope. All anchors must match the supplied
+BASE bytes and original ranges. A single invalid anchor refuses the entire
+report. Duplicate IDs are invalid; multiple claims may reference the same file.
+One source snapshot set supplies all claims and every input tree is reread after
+the complete batch. An observed change refuses the batch; this is not atomic.
+
+Exit 0 means every citation is ready for review, 1 means at least one needs
+attention or any file conflicts, and 2 means invalid input with no partial report
+on stdout. Ready for review is not semantic approval. Deletion, missing text and
+ambiguous passages remain distinct in each entry. The strictest entry determines
+the batch status; an unrelated merge conflict blocks every claim.
+
+Bounds: 1–100 entries, inherited tree/anchor bounds, and 1 MB serialized combined
+result. Repeated references incur repeated merge computation; keep batches small.
+The new glue uses Python's standard library only. Nine new behavioral tests pass,
+including multi-claim consistency, deletion, unrelated conflicts, forged anchors,
+output bounds, source changes after the batch, CLI errors and standalone copying.
+The copied Ledger source is unchanged and recorded in `PROVENANCE.json`.
+
 Check whether a saved citation survives concurrent document edits **before**
 adopting their merge. This portable folder connects line 1's Tree Review to
 line 3's Citation Reanchor and Citation Context. Python 3.9+ and standard

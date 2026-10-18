@@ -1,5 +1,9 @@
 # Shared worker tools
 
+Gathering 32 adds batch citation review to [Merge Citations](merge-citations/README.md).
+It checks every saved report claim against the same proposed three-way merge,
+then rereads all source trees. Try `python3 -B shared/merge-citations/merge_ledger.py demo`.
+
 [Merge Citations](merge-citations/README.md) joins line 1's three-way tree merge
 to line 3's exact citation relocation. It checks a saved base citation against
 both branches and the actual merged candidate, flagging missing or ambiguous

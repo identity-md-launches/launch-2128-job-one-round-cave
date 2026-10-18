@@ -1,0 +1,39 @@
+{
+  "number": 32,
+  "line_files_and_records_unchanged": true,
+  "line_tests_passed": 632,
+  "line_demos_passed": 53,
+  "shared_tests_passed": 92,
+  "gallery_records": 156,
+  "preserved_placeholders": 100,
+  "wall": {
+    "path": "artifacts/gathering/wall-v12.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "402eb23a47fa1279d5f370e69f7d4c32b7a0859d916e091cf10cdabaffb994c1"
+  },
+  "preview": {
+    "path": "dist/gathering/32.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 83986
+  },
+  "changed_pixels": 5541,
+  "changed_pixels_outside_rectangle": 0,
+  "visual_review": {
+    "method": "Local inspection of finished wall and JPEG preview.",
+    "pepe": "Wide mouth and heavy-lidded eyes preserved.",
+    "hands": "No new hands or handprints. Central Pepe hands concealed; inherited lower-center five-digit stencil retained without changes.",
+    "text_or_prohibited_symbols_observed": false,
+    "limitation": "The ochre knot is subdued at thumbnail scale; only flattened pigment from the assigned image tool was transferred to unused rock."
+  },
+  "unmet_visual_requirements": [],
+  "coins": "none"
+}

@@ -1,0 +1,12 @@
+{
+  "scope_check_passed": true,
+  "changed_tracked_files": 8,
+  "new_source_and_record_files": 17,
+  "required_wall_present_and_untracked": true,
+  "wall_sha256": "402eb23a47fa1279d5f370e69f7d4c32b7a0859d916e091cf10cdabaffb994c1",
+  "line_source_and_records_unchanged": "verified by check_deliverable_round32.py",
+  "new_image_files": [
+    "artifacts/gathering/wall-v12.png",
+    "dist/gathering/32.jpg"
+  ]
+}

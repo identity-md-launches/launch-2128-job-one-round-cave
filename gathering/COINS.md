@@ -1,9 +1,8 @@
 none
 
-The four line capabilities and the shared handoff work offline or through
-read-only public evidence. None requires a token or a Uniswap v4 hook. ZTO
-first and IMD second already provide real account, pool and document examples.
-A new coin would not enable text merging, proof verification, cited document
-search or finite dependency solving. There is no contract ready for Sepolia
-deployment, so no coin or deploy order is warranted. Nothing was signed,
-sent, paid, posted or deployed.
+Text merging, Ethereum proof checks, cited offline search and finite dependency
+resolution all work offline or read public evidence. Batch citation review also
+needs no payments or token. ZTO first and IMD second already provide the real
+account, pool and document examples. A new coin or Uniswap v4 hook would enable
+none of these capabilities. No launch request, coin order or Sepolia deployment
+order is warranted. Nothing was signed, sent, paid, posted or deployed.

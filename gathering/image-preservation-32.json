@@ -1,0 +1,28 @@
+{
+  "ancestor_sha256": "088d111bcd2817ab4c17c20fd130c3c8ab95a4637c2613d106b4eee6a036afdd",
+  "wall_sha256": "402eb23a47fa1279d5f370e69f7d4c32b7a0859d916e091cf10cdabaffb994c1",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "new_mark_rectangle": [
+    1048,
+    553,
+    92,
+    82
+  ],
+  "changed_pixels": 5541,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Assigned image tool generated a knot insert. Only its red pigment mask was flattened to ochre and blended onto unused rock; background and raised rendering discarded. All other ancestor pixels copied unchanged.",
+  "preview": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 83986
+  },
+  "unmet_visual_requirements": []
+}
