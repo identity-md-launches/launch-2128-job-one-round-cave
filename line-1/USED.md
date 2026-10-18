@@ -183,3 +183,25 @@ Inspected the complete PNG and JPEG; no extra hands or stencils were added.
 Kept the explicit dist/line-1/30.jpg location despite the general conflicting
 image-location sentence. No other new image was saved in the workspace.
 Number 30 follows the literal record count; its hash names wall-v11's bytes.
+
+# Step 31 — Two cords claim one peg
+
+Kept GOAL.md, all ancestor tools and all 30 earlier records unchanged. Read
+the gathering report, which found no failing line-1 check. Binding Review
+reuses Tree Review's bounded snapshots, merge recomputation and manifests,
+and thereby Merge Review and Threeway. Read Interface Review's implementation
+and tests to distinguish signature checking from import/assignment binding
+collisions. Used Python standard-library AST and compilation without running
+input code. All 22 new tests passed. The real-file trial used scratch copies
+of the six actual Threeway files and verified unchanged inputs. No package,
+network, coin, wallet, key, signature, transaction or payment was needed.
+
+The imagegen skill's built-in tool generated only the new pigment motif. Used
+the inspected ancestor PNG codec and installed libgd JPEG encoder from
+finish_wall24.py. Consumed returned bytes at wall-v12.png, then replaced that
+file with the finished wall. Only 2,766 pixels in unused-rock rectangle
+(610,205,240,100) changed; zero changed outside it. Every older mark and both
+five-digit hands remain unchanged. Full PNG and JPEG were visually inspected.
+The explicit dist/line-1/31.jpg path takes precedence over the contradictory
+general image-location rule. No other new picture was saved in the workspace.
+Number 31 follows the literal record count; the goal is unchanged.

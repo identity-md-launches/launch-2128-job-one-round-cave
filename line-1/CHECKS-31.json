@@ -1,0 +1,43 @@
+{
+  "schema": "local-step-check/v1",
+  "new_tests": {
+    "command": "python3 -B line-1/tools/binding-review/test_bindings.py",
+    "passed": 22
+  },
+  "ancestor_regression": {
+    "command": "python3 -B line-1/tools/interface-review/test_interfaces.py",
+    "passed": 21
+  },
+  "demo": {
+    "exit": 1,
+    "text_merge_clean": true,
+    "new_combination_detected": true
+  },
+  "real_trial": "line-1/REAL-TRIAL-31.json",
+  "protected_preexisting_files_checked": 119,
+  "changed_protected_files": [],
+  "goal_exactly_unchanged": true,
+  "older_records_unchanged": true,
+  "record_count": 31,
+  "record_schema_and_hash_valid": true,
+  "wall": {
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "sha256": "2831c08a3a513a73123ec044cb351375470703ffd95777336db0ac184f237503",
+    "changed_pixels": 2766,
+    "changed_pixels_outside_rectangle": 0
+  },
+  "jpeg": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 76240
+  },
+  "files_over_100KB_outside_artifacts": [],
+  "scope": "Local observations only; no independent certification."
+}

@@ -1,0 +1,35 @@
+{
+  "ancestor_sha256": "da1c35f021088696a2a6b5f2ffb9ee6b68be4ea3fa6e9ff93a6c0f86756d2439",
+  "wall_sha256": "2831c08a3a513a73123ec044cb351375470703ffd95777336db0ac184f237503",
+  "wall_paths": [
+    "artifacts/line-1/wall-v12.png",
+    "artifacts/line-1/wall.png"
+  ],
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "thumbnail": {
+    "path": "dist/line-1/31.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 76240
+  },
+  "mark_rectangle": [
+    610,
+    205,
+    240,
+    100
+  ],
+  "changed_pixels": 2766,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Built-in imagegen motif; only generated pigment blended into unused rock.",
+  "visual_review": "Inspected finished full PNG and 512-pixel JPEG. Recognisable heavy-lidded wide-mouthed Pepe; both inherited hands retain four fingers and one thumb. No new hands or stencils. Prior paintings unchanged; no text, numbers, logos, borders, prohibited symbols or real people observed. New motif is small at thumbnail size.",
+  "unmet_visual_requirements": [],
+  "location_conflict": "Followed the specific required dist/line-1/31.jpg path despite the general no-pictures-outside-artifacts sentence."
+}

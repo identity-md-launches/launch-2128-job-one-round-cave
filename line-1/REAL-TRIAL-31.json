@@ -1,0 +1,83 @@
+{
+  "source": "line-1/tools/threeway",
+  "source_hashes": {
+    "README.md": "99eac1d91323b3b51e57eebbc4338bb4715519bec5d51fa546b5e56acd87e003",
+    "examples/base.txt": "b1968dd85fec4bc0786e41f49d6b1a6e91f57cd91384889ce54f516950e7c9f6",
+    "examples/ours.txt": "232549fb5f6a02eb45e63a23838b128101683751ffd90027a36a1de7634eabfb",
+    "examples/theirs.txt": "6a65c2b8d1538edc0f0fc66e523fe918f9fcf32e1e03ecc8194427383c5fd353",
+    "merge.py": "256c6e4f169ac46d7ae68eb6ee5475a4915211ad6efa89edca75b1cbe8623b0e",
+    "test_merge.py": "e30ac1fb3a648708aff51d3e74d0203bceec726d95edbecf716f785c5b7eabe4"
+  },
+  "copied_files_per_tree": 6,
+  "text_merge_clean": true,
+  "review_required": true,
+  "candidate_sha256": "b0752d7fc9867450e6762537688725e87061df293515bf2864df49dda4c51532",
+  "finding": {
+    "scope": [],
+    "name": "shared_value",
+    "classification": "new-combination",
+    "same_sequence_in": [],
+    "versions": {
+      "base": [],
+      "ours": [
+        {
+          "kind": "import",
+          "line": 8,
+          "ast_sha256": "313681c37f0d8afd44467df55177491cb04beb6e25280bc7392f28816ad50aa2"
+        }
+      ],
+      "theirs": [
+        {
+          "kind": "assignment",
+          "line": 12,
+          "ast_sha256": "b52baabf4fdac172618147c0e08aedf40842f6bfd04e423312e13d79e0bd3bd4"
+        }
+      ],
+      "candidate": [
+        {
+          "kind": "import",
+          "line": 8,
+          "ast_sha256": "313681c37f0d8afd44467df55177491cb04beb6e25280bc7392f28816ad50aa2"
+        },
+        {
+          "kind": "assignment",
+          "line": 12,
+          "ast_sha256": "b52baabf4fdac172618147c0e08aedf40842f6bfd04e423312e13d79e0bd3bd4"
+        }
+      ]
+    }
+  },
+  "inventory_complete": false,
+  "inventory_problems": {
+    "base": [
+      {
+        "kind": "unsupported-statement:If",
+        "scope": [],
+        "line": 135
+      }
+    ],
+    "ours": [
+      {
+        "kind": "unsupported-statement:If",
+        "scope": [],
+        "line": 135
+      }
+    ],
+    "theirs": [
+      {
+        "kind": "unsupported-statement:If",
+        "scope": [],
+        "line": 135
+      }
+    ],
+    "candidate": [
+      {
+        "kind": "unsupported-statement:If",
+        "scope": [],
+        "line": 135
+      }
+    ]
+  },
+  "source_and_trial_inputs_unchanged": true,
+  "candidate_executed": false
+}
