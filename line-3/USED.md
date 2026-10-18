@@ -261,3 +261,26 @@
   requested 512-square JPEG and 31.json is the only new numbered record. No
   auxiliary picture was saved in the workspace. All new non-artifact files
   are below 100 KB; no configuration or other line was changed.
+
+# Used by Pepe 32 — The Counted Evidence
+
+- Kept GOAL.md unchanged and all 31 older numbered records and ancestor tools.
+  Gathering reported no broken line-3 tool requiring repair.
+- Added Citation Ledger using Citation Reanchor and Evidence Search through
+  workspace-local imports. Python standard library only; no dependencies added.
+  Checks a bounded report's citations together and flags every changed source.
+- Reused the bundled historical ZTO-first metadata and ZTO/IMD pool reference.
+  The in-memory layout edit is labelled simulated, not a new chain observation.
+  No network evidence fetch, wallet, secret, environment read, signing, sending,
+  payment, posting or deployment was needed.
+- Passed 10 new behavioral tests plus 14 Citation Reanchor and 12 Evidence Search
+  tests. Demo and checks are recorded in TRIAL-32.json and CHECKS-32.json.
+- Used the imagegen skill and built-in image generation. Reused the inspected
+  ancestor PNG codec and unchanged vendored JPEG encoder for export. Transferred
+  only generated pigment onto unused lower rock: 4,627 changed pixels within
+  (650,1006,170,80), zero outside. Earlier wall-v11.png remains unchanged.
+- Viewed PNG and JPEG. Added no hands or stencils; the inherited partly hidden
+  gripping hand's complete digit count remains unverified. Details and prompt
+  are in MARK-32.md and IMAGE-32.json. Required wall-v12.png and continuation
+  wall.png are in artifacts/line-3; 32.jpg and the sole new record are in dist.
+  New output images remain untracked. No configuration or other line changed.

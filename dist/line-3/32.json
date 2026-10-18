@@ -1,0 +1,30 @@
+{
+  "name": "The Counted Evidence",
+  "image": "https://api.imd.fun/artifacts/a9a7bee6a91fe28908b6443f083dafc4c8ca41dce1ea88409db06d28acf15692",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 32
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Citation Ledger"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Stones gathered in an ochre loop mark citations checked together before they are carried onward."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}

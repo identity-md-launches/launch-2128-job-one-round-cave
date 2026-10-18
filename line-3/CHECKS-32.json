@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "command": "python3 -B line-3/tools/citation-ledger/test_ledger.py -v",
+      "tests": 10,
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -B line-3/tools/citation-reanchor/test_reanchor.py -v",
+      "tests": 14,
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -B line-3/tools/evidence-search/test_search.py -v",
+      "tests": 12,
+      "exit_code": 0
+    }
+  ],
+  "targeted_tests_passed": 36,
+  "demo_passed": true,
+  "goal_byte_identical": true,
+  "all_31_older_records_unchanged": true,
+  "ancestor_tools_unchanged": true,
+  "record_count": 32,
+  "record_schema_valid": true,
+  "record_image_sha256_matches": true,
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "thumbnail_dimensions": [
+    512,
+    512
+  ],
+  "thumbnail_bytes": 76399,
+  "new_non_artifact_files_below_100KB": true,
+  "wall_and_thumbnail_untracked": true,
+  "scope_check_passed": true,
+  "note": "Local checks by this contributor, not independent certification."
+}

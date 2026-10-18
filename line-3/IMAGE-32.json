@@ -1,0 +1,45 @@
+{
+  "wall": "artifacts/line-3/wall-v12.png",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "sha256": "a9a7bee6a91fe28908b6443f083dafc4c8ca41dce1ea88409db06d28acf15692",
+  "ancestor_sha256": "6d84f9613f13dafbdfd74412e10b7b67d09f0e421b32bc9897f0b00bf19e1581",
+  "generated_motif_sha256": "8975261c549a8d1148c676b7a61563d199abbcb83b96f45a7053081c9f2c4e2a",
+  "generated_crop": [
+    721,
+    950,
+    195,
+    97
+  ],
+  "new_mark_rectangle": [
+    650,
+    1006,
+    170,
+    80
+  ],
+  "changed_pixels": 4627,
+  "changed_pixels_outside_rectangle": 0,
+  "thumbnail": {
+    "path": "dist/line-3/32.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 76399
+  },
+  "visual_review": "Viewed finished PNG and JPEG: central Pepe and ancestor marks preserved; new pigment only on unused lower rock; no new hands or text.",
+  "unmet_visual_requirements": [
+    "Inherited partly occluded gripping hand: complete five-digit count cannot be confirmed; preserved without alteration."
+  ],
+  "hand_review": {
+    "new_hands": 0,
+    "new_handprints": 0,
+    "inherited_spread_hand_visible_digits": 5,
+    "inherited_gripping_hand_total_digits": "unverified due to occlusion"
+  }
+}
