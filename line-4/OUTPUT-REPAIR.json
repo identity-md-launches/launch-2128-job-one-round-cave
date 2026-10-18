@@ -1,0 +1,25 @@
+{
+  "repair": "Restore required named output using the existing completed round 29 wall without changing its pixels or record.",
+  "output": "artifacts/line-4/wall-v12.png",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "sha256": "1411a4b62e8db0ba602cb1ed830eeda8c33e2b3d1a22db38feadfb1e58edcaae",
+  "matches_existing_wall": true,
+  "matches_round_29_record": true,
+  "png_chunk_checksums_valid": true,
+  "png_scanline_length_valid": true,
+  "existing_preview": {
+    "path": "dist/line-4/29.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 59544
+  },
+  "visual_review": "Viewed existing wall: Pepe, ancestral marks, rock and framing retained; both hands appear to have five digits; no text observed. Copy has identical bytes.",
+  "unmet_visual_requirements": []
+}
